@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAB00</color>
+    <color name="colorPrimaryDark">#C67C00</color>
+
+    <color name="colorPrimaryTwo">#00227B</color>
+
+    <color name="colorPrimaryDarkTree">#b0003a</color>
+    <color name="colorPrimaryTree">#b0003a</color>
+
+    <color name="colorFundo">#ffd194</color>
+
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorLetter">#a30000</color>
+    <color name="colorButton">#4a148c</color>
+    <color name="colorView">#EF6C00</color>
+
+
+    <color name="colorButton1">#c51162</color>
+    <color name="colorButton2">#bc477b</color>
+    <color name="colorButton3">#e65100</color>
+    <color name="colorButton4">#ab000d</color>
+
+    <color name="colorFragHomenageados">#FFCDCD</color>
+</resources>

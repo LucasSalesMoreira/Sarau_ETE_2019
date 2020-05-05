@@ -1,0 +1,223 @@
+<resources>
+
+    //
+    //
+    <string name="item1_menu">Sair</string>
+    <string name="title_activity_mapa">Siga este mapa!</string>
+    <string name="title_activity_main">Sarau 2019</string>
+    <string name="title_activity_homenageado">Homenageados</string>
+    <string name="title_activity_player">Músicas Cannibal</string>
+    <string name="title_activity_eventos">Eventos</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_web">Site do Sarau - ETEMB</string>
+    <string name="title_activity_localizacao">Localização</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- //////////////// TEXTOS //////////////// -->
+
+    <string name="txtSobre">Programador:\n• Lucas Sales (3ªDS-A)\nUI Designer:\n• Thais Regina (3ªDS-A)\n\nDesigners Gráficos:\n\n• Alycia Lima (3ªDS-A),\n• Rhuan Filipe (3ªDS-A)\n• Laiza Benevides (2ªDS),\n• Thyago Kauan (2ªDS)\n\nOrientador:\n• David Remigio\nCoorientador:\n• Rosiberto dos Santos</string>
+
+    <string name="txtSobre1">O aplicativo foi criado no intuito de ajudar os visitantes do Sarau 2019 da ETEMB, o sistema mostra aos usuários a localização de apresentaões e informações sobre esse evento espetacular.
+
+    </string>
+    <string name="sobreCannibalText">
+        O conhecido Marconi de Souza Santos, populamente chamado de Cannibal, é pioneiro no movimento punk em Pernambuco,
+        além de dialogar com outros movimentos culturais e desenvolver ações sociais se envolvendo com ONGs e Rádio Comunitária.
+    </string>
+
+    <string name="sobreSegunda">
+            Abertura às 9h\n\n\n   •	Banda Nova tribo\n\n  •	Canto Coral- Escola João Pernambuco (Prof. Ivanildo)\n\n  •	Produtora - Carmen Alves e a Guitarrista - Lohanna Alves\n\n •	Bate- papo musical (Entrevista com os mestres de cerimônia)\n\n
+        ás 14h\n\n\n   •	Instrumental Escola João Pernambuco (Prof. Daniel)\n\n •    Bate- papo musical (Entrevista com os mestres de cerimônia)\n\n
+        • Palas Pinho\n\n • Banda Bateu a Química
+
+    </string>
+
+    <string name="sobreTerca">
+            Abertura às 9h\n\n\n   •	Bia Leite Produtora\n\n • ONG Peixinhos\n\n • Banda Realidade Encoberta\n\n
+        ás 14h\n\n\n   • Quarteto do DEPE (Conservatório Pernambucano de Música)\n\n	•	Centro de Criatividade musical\n\n • Luiz Painho\n\n • Bate papo Musical (Mestres de cerimônia)\n\n
+    </string>
+
+    <string name="sobreQuarta">
+            Não haverá apresentações de convidados, dia reservado para a organização das exposições do Sarau
+
+    </string>
+
+    <string name="sobreQuinta">
+            Abertura ás 8h\n\n  • Exposições \n\n Ás 9h\n\n Pausa para prestigiar a palestra do homenageado\n\n\n Ás 9h30m\n\n  • Retomada das apresentações\n\n\n
+            ás 13h Apresentaçõs Artísticas\n\n\n  • Música\n • Teatro\n •Dança \n\n• Balada com a Tesla Produções\n\n\n\n
+            • Traga seus convidados, sua familia e venha precensiar o maravilhoso espetáculo do Sarau da ETEMB\n\n
+            *DOIS CONVIDADOS POR ALUNO*\n
+            Pegue sua senha na Secretária
+
+    </string>
+
+
+            <!-- SALAS -->
+
+    <string-array name="lugares">
+        <item>Biblioteca</item>
+        <item>Auditório</item>
+        <item>Sala - 01</item>
+        <item>Sala - 02</item>
+        <item>Sala - 03</item>
+        <item>Sala - 04</item>
+        <item>Sala - 05</item>
+        <item>Sala - 06</item>
+        <item>Sala - 07</item>
+        <item>Sala - 08</item>
+        <item>Sala - 09</item>
+        <item>Sala - 10</item>
+        <item>Sala - 11</item>
+        <item>Sala - 12</item>
+        <item>Quadra</item>
+    </string-array>
+
+    <!--- Descrição -->
+
+    <!-- BIBLIOTECA -->
+    <string name="bibliotecaButton1">
+        É um espaço dedicado a trajetória do homenageado Cannibal.</string>
+    <string name="bibliotecaButton2">
+        Nesse espaço  visitante encontrará um pouco da vida e a relação com a banda Devotos.</string>
+    <string name="bibliotecaButton3">
+        Além de todas as suas transformações socias.</string>
+
+
+    <!-- AUDITÓRIO -->
+    <string name="auditorioButton1">
+        O visitane participará de diversas expeiências desde o início da música até seus efeitos.</string>
+    <string name="auditorioButton2">
+        Aguçando os seus sentidos</string>
+    <string name="auditorioButton3">
+        Mexendo certamente com a emoçao de quem entrar.</string>
+
+
+    <!-- SALA01 -->
+    <string name="sala01Button1">
+        O visitante que entrar neste museo, encontrará diversas estações</string>
+    <string name="sala01Button2">
+        Todos poderão observar e perceber como é estreita a relação entre:</string>
+    <string name="sala01Button3">
+        os estilos musicais e as transformações sociais, culturais e históricas da sociedade</string>
+
+
+    <!-- SALA02 -->
+    <string name="sala02Button1">
+        Aqui o visitante compreenderá como a música atinge a todos os patamares musicais</string>
+    <string name="sala02Button2">
+        Até em jogos eletrônicos</string>
+    <string name="sala02Button3">
+        Aprender sobre a inserção da música nos jogos eletrônicos e também divertir-se jogando</string>
+
+
+    <!-- SALA03 -->
+    <string name="sala03Button1">
+        O visitante percorre um caminho com obstáculos e em cada obstáculo é colocado a música/poema</string>
+    <string name="sala03Button2">
+        Precisa ser identificado até chegar na reta final</string>
+    <string name="sala03Button3">
+        Na chegada, o visitante encontrará um ambiente criado para escuta da música</string>
+
+
+    <!-- SALA05 -->
+    <string name="sala05Button1">
+        Vivenciando um espaço “retrô” que tal entrar num café acompanhado pelas celebridades musicais?</string>
+    <string name="sala05Button2">
+        Pois bem, este espaço irá contemplar várias atrações, dentre elas, um palco interativo</string>
+    <string name="sala05Button3">
+        onde os estudantes apresentarão algumas biografias de alguns artistas dos anos 80 até hoje</string>
+
+
+    <!-- SALA06 -->
+    <string name="sala06Button1">
+        Espaço destinado à valorização da presença da mulher da música</string>
+    <string name="sala06Button2">
+        O espaço conta com um painel biográfico</string>
+    <string name="sala06Button3">
+        Além uma premiação de mulheres de destaque no cenário musical</string>
+
+
+    <!-- SALA07 -->
+    <string name="sala07Button1">
+        Durante a ditadura militar, artistas se reuniam em um lugar secreto “uma espécie de taberna”</string>
+    <string name="sala07Button2">
+        Um bar rústico onde se encontravam para fugir da repressão, discutir ideias</string>
+    <string name="sala07Button3">
+        E compor suas críticas através das canções</string>
+
+
+    <!-- SALA09 -->
+    <string name="sala09Button1">
+        O visitante que entrar em nossa exposição será convidado a viajar no mundo da</string>
+    <string name="sala09Button2">
+        terapia musical, entendendo suas mais variadas reações no cérebro</string>
+    <string name="sala09Button3">
+        Será uma viagem nos mistérios de nossos cérebros!!</string>
+
+
+    <!-- SALA10 -->
+    <string name="sala10Button1">
+        Na exposição “Música na Periferia” você vai encontrar o som que toca na comunidade.</string>
+    <string name="sala10Button2">
+        Tem funk, tem brega-funk, tem gospel, tem rap, tem swingueira, tem pagode, tem samba</string>
+    <string name="sala10Button3">
+        Será uma viagem nos mistérios de nossos cérebros!!</string>
+
+
+    <!-- SALA11 -->
+    <string name="sala11Button1">
+        A música traz uma grandiosidade em sua cadência...</string>
+    <string name="sala11Button2">
+        O compasso...a contagem... toda uma marcação ritmada</string>
+    <string name="sala11Button3">
+        Podemos encontrar nitidamente esses elementos na música clássica</string>
+
+
+    <!-- SALA12 -->
+    <string name="sala12Button1">
+        O visitante fará um breve passeio pelos continentes</string>
+    <string name="sala12Button2">
+        Afim de conduzir os convidados as mais diferentes e típicas músicas</string>
+    <string name="sala12Button3">
+        e típicas músicas de alguns países do globo</string>
+
+
+    <!-- QUADRA -->
+    <string name="quadraAbetura">
+        ás 13h- Abertura com os Mestres de Cerimônia (Radionovela)
+    </string>
+
+    <string name="quadraMusica">
+       Uma viagem no universo da música, desde os primórdios até hoje em dia.
+    </string>
+
+    <string name="quadraDanca">
+        Vivenciar momentos musicais com as mais belas expressões corporais no universo da dança
+    </string>
+
+    <!-- TEMAS DAS SALAS -->
+    <string name="temaBiblioteca">Espaço Cannibal</string>
+    <string name="temaAuditorio">Espaço Sensorial</string>
+    <string name="temaSala01">Múseo do Som</string>
+    <string name="temaSala02">Música nos Jogos</string>
+    <string name="temaSala03">Palavras em Movimento</string>
+    <string name="temaSala04">Não haverá apresentações nessa sala</string>
+    <string name="temaSala05">Café Biográfico</string>
+    <string name="temaSala06">Mulheres na Música</string>
+    <string name="temaSala07">Música na Ditadura</string>
+    <string name="temaSala08">Não haverá apresentações nessa sala</string>
+    <string name="temaSala09">Músicoterapia</string>
+    <string name="temaSala10">Música de Periferia</string>
+    <string name="temaSala11">Música clássica</string>
+    <string name="temaSala12">Música no Mundo</string>
+    <string name="temaQuadra">Apresentações artísticas</string>
+
+
+    <string name="app_name">Sarau ETEMB 2019</string>
+
+
+</resources>

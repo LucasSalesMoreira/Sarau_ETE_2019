@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LocalizacaoActivity"
+    tools:showIn="@layout/activity_localizacao"
+    android:background="@drawable/fundo_c"
+    android:orientation="vertical"
+    android:gravity="center">
+    <!--
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Onde estamos?" />
+
+    <Spinner
+        android:id="@+id/spinner_local_atual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+    -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:text="Para onde iremos?" />
+
+    <Spinner
+        android:id="@+id/spinner_destino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/bt_buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:background="@color/colorButton"
+        android:ellipsize="end"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textColor="#FFF"
+        android:layout_marginTop="20dp"
+        android:onClick="buscar"/>
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EventosActivity"
+    tools:showIn="@layout/activity_eventos"
+    android:background="@drawable/fundo_sem"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/dia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dia_nove"
+                android:layout_gravity="left" />
+
+            <TextView
+                android:id="@+id/diasemana"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segunda-Feira"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-35dp"
+                android:textColor="#a30000"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:background="@color/colorView"/>
+
+            <TextView
+                android:id="@+id/segunda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/sobreSegunda"
+                android:textColor="#000051"
+                android:textSize="20dp"
+
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/dia_dois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dia_dez"
+                android:layout_gravity="left"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/diasemana_dois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terça-Feira"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-35dp"
+                android:textColor="#a30000"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:background="@color/colorView"/>
+
+            <TextView
+                android:id="@+id/terca"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sobreTerca"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textColor="#000051"
+
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/dia_tres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dia_onze"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:id="@+id/diasemana_tres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quarta-Feira"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-35dp"
+                android:textColor="#a30000"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:background="@color/colorView"/>
+
+            <TextView
+                android:id="@+id/quarta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sobreQuarta"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textColor="#000051"
+
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/dia_quatro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dia_doze"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:id="@+id/diasemana_quaro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quinta-Feira"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="-35dp"
+                android:textColor="#a30000"
+                android:textSize="20dp"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:elevation="5dp"
+                android:background="@color/colorView"/>
+
+            <TextView
+                android:id="@+id/quinta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sobreQuinta"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"
+                android:textColor="#000051"
+                tools:ignore="MissingConstraints" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/bt_navegar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:onClick="exNavegar"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    app:srcCompat="@drawable/atracao"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:text="Se encontre na escola"
+                    android:textColor="#a30000"
+                    android:textSize="15dp" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/cannibal4"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SobreActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fundo_cc"
+    tools:showIn="@layout/activity_sobre">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Sobre o sistema..."
+         android:textSize="20dp"
+         android:fontFamily="casual"
+         android:textColor="@color/colorPrimaryTwo"/>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Versão do sistema - 1.2"
+         android:textSize="20dp"
+         android:textColor="@color/colorPrimaryTwo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/colorPrimaryTwo"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSobre1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desenvolvedores"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/colorPrimaryTwo"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSobre"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

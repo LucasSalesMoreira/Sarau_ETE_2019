@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomenageadoActivity"
+    tools:showIn="@layout/activity_homenageado"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_y"
+    android:padding="25dp">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorLetter"
+        android:elevation="3dp"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:text="Um pouco sobre Cannibal..." />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+
+            >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="@string/sobreCannibalText" />
+
+        <TextView
+            android:id="@+id/link_site"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Saiba mais em: "
+            android:textColor="@color/colorLetter"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bt_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorFundo"
+            android:elevation="10dp"
+            android:onClick="executeWeb"
+            android:text="LINK" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Música do artista"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#a30000"
+        android:textSize="15dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/bt_musica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/musica_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="executePlayer"/>
+
+
+</RelativeLayout>
